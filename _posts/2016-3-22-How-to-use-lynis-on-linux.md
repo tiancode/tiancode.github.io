@@ -43,7 +43,7 @@ $ sudo ./lynis
 
 不给指定参数，它会列出可用的参数，如下图：
 
-![lynis]({{ site.url }}/images/2016/3/Screen Shot 2016-03-22 at 10.31.44.png)
+![lynis]({{ site.baseurl }}/images/2016/3/Screen Shot 2016-03-22 at 10.31.44.png)
 
 为了执行Lynis，你可以指定`--check-all`开始扫描整个Linux系统。命令如下：
 
@@ -53,9 +53,9 @@ $ sudo ./lynis --check-all
 
 键入回车开始扫描系统：
 
-![lynis scan]({{ site.url }}/images/2016/3/Screen Shot 2016-03-22 at 10.45.38.png)
+![lynis scan]({{ site.baseurl }}/images/2016/3/Screen Shot 2016-03-22 at 10.45.38.png)
 
-![lynis scan]({{ site.url }}/images/2016/3/Screen Shot 2016-03-22 at 10.48.18.png)
+![lynis scan]({{ site.baseurl }}/images/2016/3/Screen Shot 2016-03-22 at 10.48.18.png)
 
 执行上面命令总需要输入回车才能往下执行，你可以使用-c和-Q选项跳过用户输入：
 
