@@ -60,7 +60,7 @@ cmd代表一个命令，`cmd > /dev/sda`把cmd命令的输出写到了`/dev/sda`
 
 ### #7) > file
 
-｀> file｀命令会把文件中的数据全部清空。
+`> file`命令会把文件中的数据全部清空。
 
 ### #8) dd if=/dev/random of=/dev/sda
 
