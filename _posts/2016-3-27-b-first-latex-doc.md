@@ -68,7 +68,7 @@ title: LaTeX简要教程2:第一个基于LaTeX的文档
 \end{document}
 {% endhighlight %}
 
-\title、\date和\author并没有在document环境中，所以它们并不会在文档中显示。它是preamble。
+\title、\date和\author并没有在document环境中，所以它们并不会在文档中显示。
 
 \maketitle自动创建“扉页”；\newpage创建新页面。
 
