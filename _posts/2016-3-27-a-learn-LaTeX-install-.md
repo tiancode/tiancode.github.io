@@ -45,4 +45,31 @@ $ pdflatex hello.tex
 
 查看生成的pdf文档：
 
-![Ubuntu 16.04 update]({{ site.baseurl }}/images/2016/3/Screen Shot 2016-03-27 at 09.48.14.png)
+![Latex hello world]({{ site.baseurl }}/images/2016/3/Screen Shot 2016-03-27 at 09.48.14.png)
+
+*****
+
+**问：pdflatex不支持中文，怎么办？**
+
+安装texlive的完全体：
+
+{% highlight shell %}
+$ sudo apt-get install texlive-full
+{% endhighlight %}
+
+需要2G多硬盘空间。
+
+代码：
+
+{% highlight tex %}
+\documentclass{article}
+\usepackage{CJKutf8}
+
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}
+    你好 死戒！   
+\end{CJK*}
+\end{document}
+{% endhighlight %}
+
+来自：http://tex.stackexchange.com/questions/107898/type-chinese-in-tex-compiled-with-latex
