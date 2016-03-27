@@ -16,9 +16,10 @@ $ sudo apt-get install texlive
 然后就可以用命令行工具pdflatex编译**.tex**文件，tex文件可以用任意文本编辑器创建，我使用vim。
 
 > 如果你使用Windows，可以安装MiKTeX。
+>
 > 如果你使用Mac OS X，可以安装MacTeX。
 
-### 第一个基于LaTex的文档：Hello World!
+### 测试LaTex：Hello World!
 
 创建文件**hello.tex**：
 
