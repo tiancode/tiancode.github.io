@@ -113,7 +113,7 @@ $ mv -bv *.txt ~/
 
 ******
 
-更多帮助查看man手册：
+更多帮助，查看man手册：
 
 {% highlight shell %}
 $ man mv
