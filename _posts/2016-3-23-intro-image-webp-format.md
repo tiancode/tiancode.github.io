@@ -22,15 +22,13 @@ WebP图像格式的特点总结如下：
 
 比较JPEG，PNG和GIF图像转换为WebP图像，文件大小对比。
 
-随便找一个JPEG图像。图像地址：https://static.pexels.com/photos/30234/pexels-photo.jpg，原始文件大小2.2M。
+随便找一个JPEG图像。原始文件大小2.2M。
 
-![jpeg pic]({{ site.baseurl }}/images/2016/3/pexels-photo.jpg)
+![jpeg pic]({{ site.baseurl }}/images/2016/3/8fffa491jw1f2rdfughnkj21000qoth9.jpg)
 
 使用转换工具转换，这里有几个工具：[转换WebP工具](http://blog.topspeedsnail.com/archives/4032)。
 
-转换完成的webp图像，大小965k：
-
-![webp pic]({{ site.baseurl }}/images/2016/3/pexels-photo.webp)
+转换完成的webp图像，大小965k。
 
 ### 览器的支持
 

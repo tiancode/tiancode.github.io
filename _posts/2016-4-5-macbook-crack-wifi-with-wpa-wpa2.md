@@ -59,8 +59,6 @@ en0是无线网卡设备；6是要破解wifi的CHANNEL。
 
 ![macbook]({{ site.baseurl }}/images/2016/4/Screen Shot 2016-04-05 at 14.27.21.png)
 
-文件的多少取决去你周围有多少wifi使用6频道。
-
 ## 破解wifi密码
 
 获得握手包之后，我们还需要破解加密的密码。
