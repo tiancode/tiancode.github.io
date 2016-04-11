@@ -56,6 +56,8 @@ export PATH=/opt/android-sdk/tools:$PATH
 # android
 {% endhighlight %}
 
+![android sdk]({{ site.baseurl }}/images/2016/4/Screenshot from 2016-04-11 20-35-03.png)
+
 把platform-tools目录添加到环境变量，在~/.bashrc文件尾加入：
 
 ```
