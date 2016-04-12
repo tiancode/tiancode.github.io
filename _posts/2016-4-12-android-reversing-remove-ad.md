@@ -161,6 +161,10 @@ Caused by: java.io.IOException: error=2, No such file or directory
 签名：
 
 {% highlight shell %}
+# keytool -genkey -alias mykey -keyalg RSA -validity 40000 -keystore your.keystore
+{% endhighlight %}
+
+{% highlight shell %}
 # jarsigner -keystore your_keystore base_no_ads.apk your_key_name
 {% endhighlight %}
 
