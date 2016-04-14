@@ -8,3 +8,5 @@ title: 黑客常用攻击方式汇总
 [代码注入攻击](http://topspeedsnail.com/hack-code-injection-attack/)
 
 [SQL注入攻击](http://topspeedsnail.com/hack-sql-injection-attack/)
+
+[暴力攻击法](http://topspeedsnail.com/hack-brute-force/)
