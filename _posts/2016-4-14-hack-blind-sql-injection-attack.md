@@ -81,4 +81,6 @@ UNION SELECT IF(SUBSTRING(passwd,1,1)='a', BENCHMARK(5000000，ENCODE('MSG', 'by
 
 ![sqlmap]({{ site.baseurl }}/images/2016/4/Screenshot from 2016-04-14 12-24-45.png)
 
+![sqlmap]({{ site.baseurl }}/images/2016/4/Screenshot from 2016-04-14 12-37-19.png)
+
 [黑客常用攻击方式汇总](http://topspeedsnail.com/hacker-attack-method/)
