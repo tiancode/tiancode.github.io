@@ -3,7 +3,7 @@ layout: post
 title: 使用Hydra通过ssh破解密码
 ---
 
-Hydra是非常高效的网络登录破解器，它可以对多种服务程序执行[暴力破解](http://topspeedsnail.com/hack-brute-force/)（SSH、VNC等等）。
+Hydra是非常高效的网络登录破解工具，它可以对多种服务程序执行[暴力破解](http://topspeedsnail.com/hack-brute-force/)（SSH、VNC等等）。
 
 防止这种攻击其实很容易，方法很多。以SSH为例：
 
@@ -28,7 +28,9 @@ hydra：
 
 ### 字典
 
-这种攻击需要字典文件，一个好的字典至关重要。我以Kali Linux自带的rockyou字典为例，位于/user/share/wordlists/rockyou.txt.gz。使用前先解压：
+这种攻击需要字典文件，一个好的字典至关重要。我以Kali Linux自带的rockyou字典为例，位于/user/share/wordlists/rockyou.txt.gz。
+
+使用前先解压：
 
 {% highlight shell %}
 # gzip -d /usr/share/wordlists/rockyou.txt.gz
@@ -36,7 +38,7 @@ hydra：
 
 ### 使用nmap扫描开启SSH服务的主机
 
-扫描SSH服务使用的22端口，确定可以施行破解的主机。
+扫描SSH服务(22端口)，确定可以施行破解的主机。
 
 {% highlight shell %}
 ＃ nmap -p 22 -open -sV one_IP_or_range_or_subnet > MyTarget

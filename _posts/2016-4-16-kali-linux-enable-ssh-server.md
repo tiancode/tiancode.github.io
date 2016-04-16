@@ -3,7 +3,7 @@ layout: post
 title: Kali Linux安装SSH Server
 ---
 
-Kali Linux默认并没有安装SSH服务，为了实现远程登录Kali，我们需要安装SSH服务。
+Kali Linux默认并没有安装SSH服务，为了实现远程登录Kali Linux，我们需要安装SSH服务。
 
 ### 安装 OpenSSH Server
 
@@ -21,7 +21,7 @@ Kali Linux默认并没有安装SSH服务，为了实现远程登录Kali，我们
 
 ### 更改默认的SSH密钥
 
-由于每个Linux系统都使用相似的密钥，为了提高系统安全，我们需要更改默认的SSH密钥。
+由于每个Linux系统都使用相似的密钥，为了提高系统安全，我们更改默认的SSH密钥。
 
 备份原始密钥：
 

