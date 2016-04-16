@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Android逆向工具：Androguard
+title: Android逆向工具：Androguard（一）
 ---
 
-本文介绍一下Androguard工具的安装和使用。
+本文介绍一下Androguard的安装和使用。
 
 ### 什么是Androguard？
 
-Androguard是使用Python编写的工具，也就是说可以在多个平台上运行－Linux/Windows/OSX。它可以反编译android应用，可以用来做android应用的静态分析（static analysis）。
+Androguard是使用Python编写的逆向工具，它可以在多个平台上运行－Linux/Windows/OSX。使用它可以反编译android应用，也可以用来做android app的静态分析（static analysis）。
 
 ### 下载安装Androguard
 
-只介绍在Linux上的安装步骤。我使用的是Kali Linux，同样适用于其他Linux发行版。
+这里只介绍了在Linux上的安装步骤。我使用的是Kali Linux，其他Linux发行版同样适用。
 
 确保系统中已安装了Python；一般Linux系统都自带Python。
 
@@ -46,7 +46,7 @@ Androguard的源码托管在github，使用git clone下载源码：
 # python setup.py install
 {% endhighlight %}
 
-### 使用Androguard反编译一个应用
+### 使用Androguard反编译一个应用程序
 
 Androguard支持3个反编译工具：
 
