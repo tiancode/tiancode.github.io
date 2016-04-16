@@ -27,4 +27,8 @@ DirBuster是用Java写的多线程程序，用来暴力列举网站的目录和�
 
 暴力破解网站的用户密码：[使用WPScan破解wordpress站点密码](http://blog.topspeedsnail.com/archives/4228)
 
+[使用Hydra通过ssh破解密码](http://topspeedsnail.com/kydra-crack-ssh-and-avoid-attack/)
+
+****
+
 [黑客常用攻击方式汇总](http://topspeedsnail.com/hacker-attack-method/)
