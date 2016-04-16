@@ -183,3 +183,9 @@ Caused by: java.io.IOException: error=2, No such file or directory
 * 修改资源文件，把android:layout_width 和 android:layout_height改为0px，实现隐藏广告。
 
 对破解最有用的Dalvik汇编指令：if-xxx：条件判断。例如：if-eqz v0, :cond_0，如果v0 == 0，跳转到:cond_0。
+
+****
+
+[学习Android逆向工程](http://topspeedsnail.com/start-learn-android-reversing/)
+
+[Android逆向工具：Androguard](http://topspeedsnail.com/reversing-engineering-android-androguard/)

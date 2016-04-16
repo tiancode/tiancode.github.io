@@ -3,7 +3,7 @@ layout: post
 title: 使用Hydra破解ssh密码
 ---
 
-Hydra是非常高效的网络登录破解器，它可以对多种服务程序执行暴力破解（SSH、VNC等等）。
+Hydra是非常高效的网络登录破解器，它可以对多种服务程序执行[暴力破解](http://topspeedsnail.com/hack-brute-force/)（SSH、VNC等等）。
 
 防止这种攻击其实很容易，方法很多。以SSH为例：
 
