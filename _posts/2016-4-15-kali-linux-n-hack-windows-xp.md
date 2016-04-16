@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用Metasploit演示入侵Windows
+title: 演示使用Metasploit入侵Windows
 ---
 
 我使用Kali Linux（192.168.0.112）；在同一局域网内有一台运行Windows XP（192.168.0.108）的测试电脑。
