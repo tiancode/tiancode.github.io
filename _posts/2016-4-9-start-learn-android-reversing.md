@@ -7,4 +7,6 @@ title: 学习Android逆向工程
 
 [移除Android应用广告－Android逆向工程](http://topspeedsnail.com/android-reversing-remove-ad/)
 
-[Android逆向工具：Androguard](http://topspeedsnail.com/reversing-engineering-android-androguard/)
+[Android逆向工具：Androguard（一）](http://topspeedsnail.com/reversing-engineering-android-androguard/)
+
+[Android逆向工具：Androguard（二）](http://topspeedsnail.com/reversing-engineering-android-androguard2/)
