@@ -103,7 +103,7 @@ GraphML是XML格式，用来显示图例和节点：http://www.openthefile.net/e
 # androgui.py
 {% endhighlight %}
 
-![Androdd]({{ site.baseurl }}/images/2016/4/Screenshot from 2016-04-17 21-53-00.png)
+![androgui]({{ site.baseurl }}/images/2016/4/Screenshot from 2016-04-17 21-53-00.png)
 
 *****
 
