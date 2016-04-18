@@ -45,13 +45,13 @@ title: 使用Kali Linux执行中间人攻击(演示)
 
 *路由器－>受害者：*
 
-在打开一个终端，执行：
+再打开一个终端，执行：
 
 {% highlight shell %}
 # arpspoof -i wlan0 -t 192.168.0.1 192.168.0.106
 {% endhighlight %}
 
-经过执行上面两个命令，现在受害者电脑接收和发送的所有数据包都经过Kali Linux，这时你就可以使用抓包分析工具了。
+经过执行上面两个命令，现在受害者电脑接收和发送的所有数据包都经过Kali Linux，这时你就可以使用抓包分析工具了(Wireshark)。
 
 ## driftnet：监控受害者电脑的图片流量
 
@@ -79,9 +79,15 @@ title: 使用Kali Linux执行中间人攻击(演示)
 
 ![Kali Linux 中间人攻击]({{ site.baseurl }}/images/2016/4/Screenshot from 2016-04-18 16-15-11.png)
 
+sslstrip：自行查看man手册
+
 ************
 
+[Kali Linux ettercap的使用](http://blog.topspeedsnail.com/kali-linux-ettercap-arp-spoof-attack/)
+
 [更改Kali Linux MAC地址](http://blog.topspeedsnail.com/archives/4387)
+
+[在Wifi网络中嗅探明文密码(HTTP POST请求)](http://blog.topspeedsnail.com/wireshark-hack-http-post-password/)
 
 [演示使用Metasploit入侵Android](http://topspeedsnail.com/kali-linux-metasploit-hack-android/)
 
