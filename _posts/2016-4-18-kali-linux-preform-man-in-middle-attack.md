@@ -81,10 +81,10 @@ title: 使用Kali Linux执行中间人攻击(演示)
 
 ************
 
-
-
-[演示使用Metasploit入侵Android](http://topspeedsnail.com/kali-linux-metasploit-hack-android/)
+[更改Kali Linux MAC地址](http://blog.topspeedsnail.com/archives/4387)
 
 [演示使用Metasploit入侵Android](http://topspeedsnail.com/kali-linux-metasploit-hack-android/)
+
+[演示使用Metasploit入侵Windows](http://topspeedsnail.com/kali-linux-n-hack-windows-xp/)
 
 [使用Hydra通过ssh破解密码](http://topspeedsnail.com/kydra-crack-ssh-and-avoid-attack/)
