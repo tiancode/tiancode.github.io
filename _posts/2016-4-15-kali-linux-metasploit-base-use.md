@@ -132,3 +132,5 @@ msf > exploit
 *****
 
 [演示使用Metasploit入侵Windows](http://topspeedsnail.com/kali-linux-n-hack-windows-xp/)
+
+[演示使用Metasploit入侵Android](http://topspeedsnail.com/kali-linux-metasploit-hack-android/)

@@ -106,4 +106,8 @@ OK，入侵成功。
 
 ![msfconsole]({{ site.baseurl }}/images/2016/4/Screenshot from 2016-04-15 19-08-43.png)
 
+****
+
 [Metasploit的基本使用](http://topspeedsnail.com/kali-linux-metasploit-base-use/)
+
+[演示使用Metasploit入侵Android](http://topspeedsnail.com/kali-linux-metasploit-hack-android/)
