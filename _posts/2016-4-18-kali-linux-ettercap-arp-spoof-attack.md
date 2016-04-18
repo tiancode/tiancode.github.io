@@ -77,7 +77,7 @@ Host->Host list，扫描到的主机列表：
 
 和Wireshark配合使用：
 
-* [在Wifi网络中嗅探明文密码(HTTP POST请求)](http://blog.topspeedsnail.com/wireshark-hack-http-post-password/)
+* [在Wifi网络中嗅探明文密码(HTTP POST请求)](http://topspeedsnail.com/wireshark-hack-http-post-password/)
 
 *********
 

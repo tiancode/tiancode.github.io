@@ -83,11 +83,11 @@ sslstrip：自行查看man手册
 
 ************
 
-[Kali Linux ettercap的使用](http://blog.topspeedsnail.com/kali-linux-ettercap-arp-spoof-attack/)
+[Kali Linux ettercap的使用](http://topspeedsnail.com/kali-linux-ettercap-arp-spoof-attack/)
 
 [更改Kali Linux MAC地址](http://blog.topspeedsnail.com/archives/4387)
 
-[在Wifi网络中嗅探明文密码(HTTP POST请求)](http://blog.topspeedsnail.com/wireshark-hack-http-post-password/)
+[在Wifi网络中嗅探明文密码(HTTP POST请求)](http://topspeedsnail.com/wireshark-hack-http-post-password/)
 
 [演示使用Metasploit入侵Android](http://topspeedsnail.com/kali-linux-metasploit-hack-android/)
 
