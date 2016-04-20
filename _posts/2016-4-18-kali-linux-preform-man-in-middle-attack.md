@@ -53,6 +53,8 @@ title: 使用Kali Linux执行中间人攻击(演示)
 
 经过执行上面两个命令，现在受害者电脑接收和发送的所有数据包都经过Kali Linux，这时你就可以使用抓包分析工具了(Wireshark)。
 
+攻击原理：攻击者说服受害者计算机－攻击者计算机的Mac地址就是路由器的Mac地址。
+
 ## driftnet：监控受害者电脑的图片流量
 
 > Driftnet watches network traffic, and picks out and displays  JPEG  and GIF  images  for  display.  It  is  an horrific invasion of privacy and shouldn't be used by anyone anywhere.  It  has  been  described  as  `a graphical  tcpdump(8)',  `EtherPeg  for  Unix', and called all sorts of nasty names by people on Freshmeat. It is also possible to use driftnet to  capture  MPEG  audio  data  from  the network and play it through a player such as mpg123(1).
