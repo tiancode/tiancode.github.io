@@ -3,11 +3,11 @@ layout: post
 title: Kali Linux使用acccheck破解Windows用户密码(SMB协议)
 ---
 
-acccheck是设计用来破解使用SMB协议的Windows用户密码。
+acccheck是设计用来破解使用SMB协议的Windows用户密码的。
 
 > SMB是一种网络通信协议,使用SMB协议可以实现不同类型设备之间数据传递。例如,文件、打印机共享也是基于这个协议。
 
-acccheck就是使用perl包装了smbclient命令；
+acccheck就是使用perl封装了smbclient命令；
 
 它使用暴力破解的方式试出Windows用户密码。
 
