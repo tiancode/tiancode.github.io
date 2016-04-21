@@ -67,7 +67,6 @@ $ sudo ./lynis -c -Q
 
 如果你想为你的系统创建一个日扫描报告，你可以设置cron：
 
-
 {% highlight shell %}
 $ crontab -e
 {% endhighlight %}
