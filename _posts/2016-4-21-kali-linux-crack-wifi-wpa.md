@@ -135,4 +135,6 @@ aireplay-ng的生效前提是，wifi网络中至少有一个连接的设备。�
 
 ***
 
-总结：防止这种攻击最简单的方法是设置贼复杂贼长的密码。
+总结：防止这种攻击最简单的方法是设置贼复杂贼长的密码；另外不要使用WEP加密方式，非常容易被破解。 
+
+[Kali Linux破解wifi密码(WEP)](http://topspeedsnail.com/kali-linux-crack-wifi-password-wep/)
