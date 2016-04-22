@@ -33,7 +33,7 @@ WEP是无线路由器最初广泛使用的一种加密方式，这种加密方�
 # aircrack-ng ~/*.cap
 {% endhighlight %}
 
-最后，不要忘了结束无线网卡的监控模式了：
+最后，不要忘了结束无线网卡的监控模式：
 
 {% highlight shell %}
 # airmon-ng stop wlan0mon
