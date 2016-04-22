@@ -133,6 +133,26 @@ aireplay-ng的生效前提是，wifi网络中至少有一个连接的设备。�
 
 ![破解wifi密码]({{ site.baseurl }}/images/2016/4/Screenshot from 2016-04-21 20-06-53.png)
 
+### 可选）使用显卡的运算能力
+
+如果你有一个强大的GPU，为什么不使用GPU跑字典呢？
+
+[Hashcat](http://hashcat.net)可以借助GPU的运算力破解各种不同算法的hash值。
+
+下载时要注意选择正确的显卡类型（AMD、NVidia）。
+
+在破解cap文件之前，要把它转换为hccap文件：
+
+{% highlight shell %}
+# aircrack-ng file.cap -J out.hccap
+{% endhighlight %}
+
+使用GPU破解hash：
+
+{% highlight shell %}
+# oclHashcat.bin -m 2500 out.hccap 字典文件
+{% endhighlight %}
+
 ***
 
 总结：防止这种攻击最简单的方法是设置贼复杂贼长的密码；另外不要使用WEP加密方式，非常容易被破解。 
