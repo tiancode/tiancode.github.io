@@ -37,7 +37,7 @@ lastlog命令，对应的日志文件/var/log/lastlog； 显示最近登录信�
 $ <空格>command
 {% endhighlight %}
 
-在执行命令前加一个空格。
+在要执行命令前加一个空格。
 
 清除当前登录session的历史：
 
