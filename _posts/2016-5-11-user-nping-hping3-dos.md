@@ -7,7 +7,7 @@ Wiki关于DoS攻击的解释：[Denial of Service Attack](https://zh.wikipedia.o
 
 DDoS攻击是常见的攻击方式，每小时大约发生28次。<http://www.digitalattackmap.com>提供在世界范围内的DDoS实时攻击分布图：
 
-![GoldenEye DoS攻击]({{ site.baseurl }}/images/2016/5/Screen Shot 2016-05-10 at 19.08.30.png)
+![DoS攻击]({{ site.baseurl }}/images/2016/5/Screen Shot 2016-05-10 at 19.08.30.png)
 
 从DDoS攻击的地图上就可以看出国际形势；例如，到9月18号可以看到日本－中国的攻击；川普宣布建墙之后，可以看到墨西哥－美国的攻击。
 
