@@ -11,7 +11,7 @@ DDoS攻击是常见的攻击方式，每小时大约发生28次。<http://www.di
 
 从DDoS攻击的地图上就可以看出国际形势；例如，到9月18号可以看到日本－中国的攻击；川普宣布建墙之后，可以看到墨西哥－美国的攻击。
 
-使用hping3进行DoS攻击。
+使用hping3进行DoS攻击：
 
 {% highlight shell %}
 # hping3 -c 10000 -d 120 -S -w 64 -p 80 --flood --rand-source testsite.com

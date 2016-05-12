@@ -18,19 +18,19 @@ avatar: https://avatars1.githubusercontent.com/u/5637917?v=3&s=140
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: tianshuai-2009@163.com
-  facebook: shuai.tian.984
+  email:
+  facebook:
   flickr:
   github: tiancode
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: tian_sh
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: u/0/101162010568894605847/posts # anything in your profile username that comes after plus.google.com/
-  weibo: appdnda
+  googleplus: # anything in your profile username that comes after plus.google.com/
+  weibo:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
