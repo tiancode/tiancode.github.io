@@ -58,3 +58,13 @@ msf > use auxiliary/gather/search_email_collector
 由于使用搜索引擎，所以并不保证100%可靠。
 
 黑客可以利用这些信息进行网络钓鱼，骗取个人信息。其实这种攻击是社会工程学攻击中最不危险的一种。
+
+类似的工具还有theharvester：
+
+```
+# theharvester
+# theharvester -d microsoft.com -l 500 -b google -h myresults.html
+# theharvester -d microsoft.com -b pgp
+# theharvester -d microsoft -l 200 -b linkedin
+# theharvester -d apple.com -b googleCSE -l 500 -s 300
+```
