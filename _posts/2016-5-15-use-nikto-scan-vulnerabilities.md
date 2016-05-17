@@ -32,19 +32,18 @@ Nikto是一个扫描Web服务漏洞的一个工具，也是使用最广泛的扫
 
 ****
 
-更多常用选项：
+**更多常用选项：**
 
 * -config：使用自定义的配置文件扫描
 * -update：升级插件数据库
 * -Format：输出结果文件类型，它可以是CSV、HTML、NBE、SQL、TXT、XML。CSV和XML通常可以做为其他工具的输入
 * -evasion：指定使用一些加密技术，避免被防火墙或其他防卫系统检测到
 * -list-plugins：列出可用的插件
-* -Plugins：指定使用的插件，默认是所有
+* -Plugins：指定使用的插件，默认使用所有插件
 * -port：如果Web服务器没有使用标准的端口（80 443），你可能需要用到这个选项
 
-更多信息查看man：
+**更多信息查看man：**
 
 {% highlight shell %}
-# nikto
+# man nikto
 {% endhighlight %}
-
