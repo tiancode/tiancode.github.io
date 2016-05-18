@@ -3,7 +3,7 @@ layout: post
 title: 演示DNS欺骗攻击
 ---
 
-DNS欺骗攻击利用了[中间人攻击](http://topspeedsnail.com/kali-linux-preform-man-in-middle-attack/)。攻击者更改受害者从DNS服务器查询的域名解析结果，给受害者发送恶意网页或钓鱼网页－浏览器依然显示正常的url。
+DNS欺骗攻击基于[中间人攻击](http://topspeedsnail.com/kali-linux-preform-man-in-middle-attack/)。攻击者更改受害者从DNS服务器查询的域名解析结果，给受害者发送恶意网页或钓鱼网页－浏览器依然显示正常的url。
 
 本帖介绍怎么使用Ettercap施行DNS欺骗攻击，实现受害者访问任何网站都转向到攻击者指定的网站。
 
@@ -63,7 +63,7 @@ DNS欺骗／ARP欺骗：
 
 ## 测试
 
-受害者访问其他网站：
+受害者访问网站：
 
 ![演示DNS欺骗攻击]({{ site.baseurl }}/images/2016/5/Screen Shot 2016-05-18 at 18.42.13.png)
 
@@ -79,6 +79,6 @@ nslookup www.baidu.com
 
 Kali Linux中另一个执行这种攻击的工具：dnsspoof。
 
-```
-man dnsspoof
-```
+{% highlight shell %}
+# man dnsspoof
+{% endhighlight %}
