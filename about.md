@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于
+title: 关于我
 permalink: /about/
 ---
 
@@ -16,5 +16,5 @@ May the "self-fucking-five" force always be with you.
 
 ### 联系我
 
-* [Github](https://github.com/tiancode) -欢迎star
+* [Learn Hacking](http://github.com/tiancode/learn-hacking) -欢迎star
 * [tianshuai2012@gmail.com](mailto:tianshuai2012@gmail.com])
