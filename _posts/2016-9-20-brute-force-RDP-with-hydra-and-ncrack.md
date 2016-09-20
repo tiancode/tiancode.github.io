@@ -46,7 +46,7 @@ rdp:// = Port 3389
 使用ncrack暴力破解：
 
 ```
-ncrack -p 3389 -v -user adminstrator -P /usr/share/wordlists/rockyou.txt 192.168.56.102
+ncrack -p 3389 -v -user adminstrator -P /usr/share/wordlists/rockyou.txt 192.168.xx.xx
 ```
 
 ```
