@@ -90,6 +90,8 @@ Kali Linux能做很多事，但是它主要以渗透测试及'破解wifi密码'�
 
 aireplay-ng的生效前提是，wifi网络中至少有一个连接的设备。从上图(4)可以看到哪些设备连接到了wifi，STATION就是连接设备的MAC地址，记住一个。
 
+* [aircrack-ng官网](https://www.aircrack-ng.org)
+
 打开新终端执行：
 
 {% highlight shell %}
@@ -98,7 +100,7 @@ aireplay-ng的生效前提是，wifi网络中至少有一个连接的设备。�
 
 参数解释：
 
-* -0指定发送反认证包的个数
+* -0表示发起deauthentication攻击
 * -a指定无线路由器BSSID
 * -c指定强制断开的设备
 
