@@ -17,4 +17,5 @@ May the "self-fucking-five" force always be with you.
 ### 联系我
 
 * [Learn Hacking](http://github.com/tiancode/learn-hacking) -欢迎star
-* [tianshuai2012@gmail.com](mailto:tianshuai2012@gmail.com])
+* [root@topspeedsnail.com](mailto:root@topspeedsnail.com])
+* 我的另一个博客:[斗大的熊猫](http://blog.topspeedsnail.com)
